@@ -18,14 +18,21 @@ A Simple Todo App that allows a user to perform basic CRUD operations to a mysql
 ### Laravel setup
 
 `lavavel newlaravel-react`
+
 `composer require laravel/ui`
+
 `php artisan ui bootstrip`
+
 `php artisan ui react`
 
 ### Create database and test data
 
+`create a new file named 'database.sqlite' in /database folder`
+
 `php artisan make:migration`
+
 `php artisan tinker`
+
 `factory(App\Task::class, 30)->create();`
 
 ### Start Local Server
@@ -35,4 +42,5 @@ A Simple Todo App that allows a user to perform basic CRUD operations to a mysql
 ### Reactjs Setup
 
 `npm install`
+
 `npm run watch`
