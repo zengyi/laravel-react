@@ -1,6 +1,6 @@
 ## Laravel ReactJs
 
-A Simple Todo App that allows a user to perform basic CRUD operations to a mysql database. Laravel on the back-end and React.js for the front-en.
+A Simple Todo App that allows a user to perform basic CRUD operations to a mysql database. Laravel on the back-end and React.js for the front-end.
 
 -   User able to create a new task
 -   User able to edit an existing task
@@ -17,7 +17,7 @@ A Simple Todo App that allows a user to perform basic CRUD operations to a mysql
 
 ### Laravel setup
 
-`lavavel newlaravel-react`
+`lavavel new laravel-react`
 
 `composer require laravel/ui`
 
